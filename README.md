@@ -18,4 +18,4 @@ Use for storing all spec file paths.
 
 ## ptr.conf.js
 
-Use to run Protractor tests. Use protractor ptr.conf in cmd or terminal.
+Use to run Protractor tests. Use `protractor ptr.conf` in cmd or terminal.
