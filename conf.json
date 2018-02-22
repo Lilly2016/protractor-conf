@@ -1,0 +1,28 @@
+{
+    "cult": "en",
+    "framework": "jasmine",
+    "seleniumAddress": "http://localhost:4444/wd/hub",
+    "browsers": [
+        "chrome",
+        "firefox"
+    ],
+    "shardTestFiles": false,
+    "maxInstances": 1,
+    "specs": {
+        "user-portal": {
+            "login": false,
+            "accountCreation": false,
+            "accountUpdate": false,
+            "accountDelete": false,
+            "calendarPage": false,
+            "shoppingPage": false
+        }
+    },
+    "onPrepare": {
+        "waitForAngular": true
+    },
+    "report": {
+        "local": true,
+        "global": false
+    }    
+}

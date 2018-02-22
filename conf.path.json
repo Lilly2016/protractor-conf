@@ -1,0 +1,10 @@
+{
+    "user-portal": {
+        "login": "./tests/user-porta/login.spec.js",
+        "accountCreation": "./tests/user-porta/login.spec.js",
+        "accountUpdate": "./tests/user-porta/accountUpdate.spec.js",
+        "accountDelete": "./tests/user-porta/accountDelete.spec.js",
+        "calendarPage": "./tests/user-porta/calendarPage.spec.js",
+        "shoppingPage": "./tests/user-porta/shoppingPage.spec.js"
+    }
+}
