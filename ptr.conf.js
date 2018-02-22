@@ -21,8 +21,5 @@ exports.config = {
         print: function () { }, //remove dots from log
         defaultTimeoutInterval: 120000
     },
-    params: {
-        masterConf: '../../../common/util.conf.js'
-    },
     allScriptsTimeout: 120000 //in case campaign submittal is slow
 }
